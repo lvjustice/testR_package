@@ -1,0 +1,26 @@
+Package: testR
+Title: A Test Package By Lucy
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Lucy",
+           family = "Justice",
+           role = c("aut", "cre"),
+           email = "lucy.justice@ntu.ac.uk")
+Description: Functions made by Lucy to add to a package. Functions include 
+    calculating log odds and inverse log odds. 
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    dplyr (>= 1.0.7),
+    magrittr,
+    tibble,
+    tidyr (>= 1.1.4)
+Depends: 
+    R (>= 2.10)
+Suggests: 
+    rmarkdown,
+    knitr
+VignetteBuilder: knitr

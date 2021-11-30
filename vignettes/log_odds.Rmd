@@ -1,0 +1,25 @@
+---
+title: "How to calculate log odds"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{How to calculate log odds}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(testR)
+```
+
+To calculate the log odds of a vector of probabilities
+```{r}
+logit(probs$p)
+```
+
